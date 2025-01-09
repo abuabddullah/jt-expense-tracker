@@ -1,0 +1,7 @@
+{
+  "/page": "app/page.js",
+  "/api/limits/route": "app/api/limits/route.js",
+  "/api/expenses/route": "app/api/expenses/route.js",
+  "/api/expenses/reset/route": "app/api/expenses/reset/route.js",
+  "/api/limits/reset/route": "app/api/limits/reset/route.js"
+}

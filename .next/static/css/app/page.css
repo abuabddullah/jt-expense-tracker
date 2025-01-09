@@ -1,0 +1,372 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./app/components/EditExpenseForm.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.EditExpenseForm_overlay__iqkeW {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.EditExpenseForm_modal__jM_0O {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+}
+
+.EditExpenseForm_modal__jM_0O h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.EditExpenseForm_field__aSAv5 {
+  margin-bottom: 1rem;
+}
+
+.EditExpenseForm_field__aSAv5 label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.EditExpenseForm_field__aSAv5 input,
+.EditExpenseForm_field__aSAv5 select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.EditExpenseForm_buttons__6tqWO {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.EditExpenseForm_saveButton__k_SFg,
+.EditExpenseForm_cancelButton__G1vHo {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.EditExpenseForm_saveButton__k_SFg {
+  background: #6366f1;
+  color: white;
+}
+
+.EditExpenseForm_cancelButton__G1vHo {
+  background: #e5e7eb;
+  color: #374151;
+}
+
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./app/components/ExpenseTracker.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.ExpenseTracker_container__3Xvt_ {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.ExpenseTracker_title__dvYS2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.ExpenseTracker_resetButton__n0vk7 {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.ExpenseTracker_grid__Q9cu7 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.ExpenseTracker_addExpense__syVP4 {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ExpenseTracker_field__0mFFm {
+  margin-bottom: 1rem;
+}
+
+.ExpenseTracker_field__0mFFm label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.ExpenseTracker_field__0mFFm input,
+.ExpenseTracker_field__0mFFm select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.ExpenseTracker_addButton__oAJxb {
+  width: 100%;
+  padding: 1rem;
+  background: #6366f1;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.ExpenseTracker_summary__KrHtI {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.ExpenseTracker_monthlyOverview__HXKKd,
+.ExpenseTracker_dailySummary___fREY {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ExpenseTracker_tableWrapper__xua8Y {
+  overflow-x: auto;
+}
+
+.ExpenseTracker_overviewTable__ttpAs {
+  width: 100%;
+  border-collapse: collapse;
+  white-space: nowrap;
+}
+
+.ExpenseTracker_overviewTable__ttpAs th,
+.ExpenseTracker_overviewTable__ttpAs td {
+  padding: 0.75rem;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.ExpenseTracker_overviewTable__ttpAs th {
+  background: #f8fafc;
+  font-weight: 600;
+}
+
+.ExpenseTracker_overviewTable__ttpAs tr:nth-child(even) {
+  background: #f8fafc;
+}
+
+.ExpenseTracker_dayGroup__hzhME {
+  margin-bottom: 1.5rem;
+}
+
+.ExpenseTracker_dayGroup__hzhME h3 {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 0.5rem;
+}
+
+.ExpenseTracker_expense__VDtTY {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr auto;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  align-items: center;
+}
+
+.ExpenseTracker_expenseCategory__Q1cTt {
+  color: #666;
+}
+
+.ExpenseTracker_expensePurpose__alGPE {
+  color: #333;
+}
+
+.ExpenseTracker_expenseAmount__nL00U {
+  text-align: right;
+  font-weight: 500;
+}
+
+.ExpenseTracker_expenseActions__A9YoV {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.ExpenseTracker_editButton__wO3kT,
+.ExpenseTracker_deleteButton__brYKe {
+  padding: 0.25rem 0.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+.ExpenseTracker_editButton__wO3kT {
+  background: #6366f1;
+  color: white;
+}
+
+.ExpenseTracker_deleteButton__brYKe {
+  background: #ef4444;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .ExpenseTracker_grid__Q9cu7 {
+    grid-template-columns: 1fr;
+  }
+
+  .ExpenseTracker_expense__VDtTY {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+
+  .ExpenseTracker_expenseAmount__nL00U {
+    text-align: left;
+  }
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./app/components/SpendingLimits.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.SpendingLimits_container__I1M07 {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.SpendingLimits_title__REaPS {
+  text-align: center;
+  color: #333;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+
+.SpendingLimits_subtitle__NVf_f {
+  color: #333;
+  margin: 1.5rem 0 1rem;
+  font-size: 1.2rem;
+}
+
+.SpendingLimits_form__AXMK6 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.SpendingLimits_field__NSYl1 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.SpendingLimits_field__NSYl1 label {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.SpendingLimits_field__NSYl1 input {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.SpendingLimits_field__NSYl1 input:focus {
+  outline: none;
+  border-color: #6366f1;
+}
+
+.SpendingLimits_button__1bu2i {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #6366f1;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.SpendingLimits_button__1bu2i:hover {
+  background: #4f46e5;
+}
+
+.SpendingLimits_error__MZTad {
+  color: red;
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  background-color: #ffebee;
+  padding: 8px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./app/globals.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+:root {
+  --background: #f5f5f5;
+  --text: #333;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+main {
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+

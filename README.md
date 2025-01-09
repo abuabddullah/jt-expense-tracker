@@ -28,8 +28,8 @@ Effortlessly manage your daily expenses, stay on top of your budget, and gain in
 1. **Clone the Repository:**
 
    ```bash
-   git clone <repository-url>
-   cd expense-tracker
+   git clone https://github.com/abuabddullah/jt-expense-tracker.git
+   cd jt-expense-tracker
    ```
 
 2. **Install Dependencies:**
@@ -103,4 +103,3 @@ Want to contribute? Fork the repository, make your changes, and submit a pull re
 ## 📄 Regards
 
 Asif A Owadud
-# jt-expense-tracker

@@ -29,7 +29,8 @@
     ".next/types/**/*.ts",
     "hooks/use-mobile.tsx2",
     "hooks/use-toast.ts2",
-    "tailwind.config.ts2"
+    "tailwind.config.ts2",
+    "lib/utils.ts2"
   ],
   "exclude": ["node_modules"]
 }
